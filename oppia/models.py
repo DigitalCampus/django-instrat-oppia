@@ -24,6 +24,8 @@ class UserProfile (models.Model):
     job_title = models.TextField(blank=True, null=True, default=None)
     organisation = models.TextField(blank=True, null=True, default=None)
     phone_number = models.TextField(blank=True, null=True, default=None)
+    facility_name = models.TextField(blank=True, null=True, default=None)
+    staff_id = models.TextField(blank=True, null=True, default=None)
     
     def get_can_upload(self):
         if self.user.is_staff:
