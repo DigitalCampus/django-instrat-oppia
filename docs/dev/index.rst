@@ -14,6 +14,8 @@ For installing OppiaMobile server and Moodle block please refer to:
    settings
    api
    utilities
+   code_process
+   remote_device_admin
    changelog
    
 
